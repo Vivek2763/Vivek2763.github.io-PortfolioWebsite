@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Full Stack Developer">
+    <title>Portfolio - M Vivek</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-wrapper">
+            <!-- Logo -->
+            <a href="index.html" class="logo">M <span class="logo-accent">Vivek</span></a>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero-section">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            
+            <!-- Hero Text Content (This div is crucial) -->
+            <div class="hero-content">
+                <div class="welcome-badge fade-in-up">
+                    <span class="wave">👋</span> Welcome to my portfolio
+                </div>
+                <h1 class="hero-title fade-in-up delay-1">
+                    Hi, I'm <br><span class="text-gradient">M Vivek</span>
+                </h1>
+                <p class="hero-subtitle fade-in-up delay-1">
+                   Aspiring Full Stack Developer
+                </p>
+                <p class="hero-description fade-in-up delay-2">
+                    I build exceptional digital experiences that combine beautiful design
+                    with powerful functionality. Let's create something amazing together.
+                </p>
+                <div class="hero-buttons fade-in-up delay-3">
+                    <a href="resume.html" class="btn btn-primary">
+                        <span>View My Resume</span>
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="contact.html" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="skills-tags fade-in-up delay-4">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">C/C++</span>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="hero-image-container fade-in-up delay-5">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-ring"></div>
+                    <img 
+                        src="vivek1.jpg"
+                        alt="M Vivek" 
+                        class="hero-image"
+                        onerror="this.onerror=null; this.src='https://placehold.co/400x400/1f2937/9ca3af?text=Image+Not+Found';"
+                    >
+                </div>
+            </div>
+
+        </div>
+        <!-- Scroll indicator -->
+        <a href="#features-section" class="scroll-indicator" aria-label="Scroll down to features">
+            <div class="scroll-indicator-dot"></div>
+        </a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">What I <span class="text-gradient">Bring</span></h2>
+                <p class="section-description">
+                    Combining technical expertise with creative problem-solving to deliver outstanding results for your project.
+                </p>
+            </div>
+            <div class="features-grid">
+                
+                <!-- Feature 1: Clean Code -->
+                <div class="feature-card fade-in-up delay-1">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Clean Code</h3>
+                    <p class="feature-description">
+                        Writing maintainable, scalable, and well-documented code that adheres to industry best practices.
+                    </p>
+                </div>
+
+                <!-- Feature 2: Creative Design -->
+                <div class="feature-card fade-in-up delay-2">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                            <path d="M2 2l7.586 7.586"/>
+                            <circle cx="11" cy="11" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Creative Design</h3>
+                    <p class="feature-description">
+                        Crafting beautiful, modern, and intuitive user interfaces that prioritize excellent user experience (UX).
+                    </p>
+                </div>
+
+                <!-- Feature 3: Fast Performance -->
+                <div class="feature-card fade-in-up delay-3">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Fast Performance</h3>
+                    <p class="feature-description">
+                        Optimizing assets, bundle sizes, and server-side logic for blazing fast load times and responsiveness.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card fade-in-up">
+                <h2 class="cta-title">Let's Work Together</h2>
+                <p class="cta-description">
+                    Have a project in mind? I'm currently available for freelance and full-time opportunities.
+                </p>
+                <a href="contact.html" class="btn btn-accent">
+                    <span>Start a Conversation</span>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand -->
+                <div class="footer-section">
+                    <h3 class="footer-brand">M <span class="logo-accent">Vivek</span></h3>
+                    <p class="footer-text">Building digital experiences with passion and precision.</p>
+                </div>
+                <!-- Links -->
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Connect -->
+                <div class="footer-section">
+                    <h4 class="footer-heading">Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Vivek2763" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vivek-muralidhara" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:vivekm.csegcem@gmail.com" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 M Vivek. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
+
